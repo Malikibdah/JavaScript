@@ -163,3 +163,9 @@ let x = "don’t know why"
 
 */
 // solution
+// let x = "don’t know why";
+// if(x.search("y")>0){
+//     console.log("yes");
+// }else{
+//     console.log("no");
+// }
