@@ -1,6 +1,7 @@
 
-function imgch(m){
-    
-    m.src="https://www.aljadeed.tv/uploadImages/documentimages/409909-Doc-P.jpg";
-    document.getElementById("malik").innerHTML="Palestine";
+function imgch(){
+    let r=document.getElementById('country').value;
+    let u=document.getElementById('imgnew');
+    u.src=r;
+   
 }
