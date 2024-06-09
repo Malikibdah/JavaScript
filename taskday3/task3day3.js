@@ -1,9 +1,29 @@
-function malik(){
-    document.getElementById("size").innerHTML="20 px";
-    document.getElementById("font").innerHTML="Fantasy";
+function fontsz(x){
+
+    document.getElementById("text").style.fontSize=x;
 
 }
-function italic(c){
-   c.document.getElementById("italic").style.fontWeight="5px";
-
+function fontf(){
+    d=document.getElementById("fontfamily").value;
+    document.getElementById("text").style.fontFamily=d;
+}
+function fontweit(value){
+    if(value)
+    {document.getElementById("text").style.fontStyle="italic";}
+    else{
+        document.getElementById("text").style.fontStyle="";
+    }
+}
+function fontweitgh(value){
+    console.log(value);
+    if(value)
+        {document.getElementById("text").style.fontWeight="bold";}
+        else{
+            document.getElementById("text").style.fontWeight="";}
+}
+function fontweitghtt(value){
+    if(value)
+        {document.getElementById("text").style.textDecoration="underline";}
+        else{
+            document.getElementById("text").style.textDecoration="";}
 }

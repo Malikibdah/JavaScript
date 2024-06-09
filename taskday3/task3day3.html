@@ -6,21 +6,27 @@
     <title>Document</title>
 </head>
 <body>
-<select name="fontfamily" id="fontfamily">
-    <option id="font" value="timesnew">Times new roman</option>
-    <option value="Fantasy">Fantasy</option>
+<select name="fontfamily" id="fontfamily" onchange="fontf()">
+    <option value=" cursive"> cursive</option>
+    <option value="serif">serif</option>
+    <option value="Gill Sans">Gill Sans</option>
+    <option value="fantasy">fantasy</option>
+    <option value="Times New Roman">Times New Roman</option>
     
 </select>
-<select name="fontweight" id="fontweight" onchange="(this.value)">
-    <option value="small">10 px</option>
-    <option value="larg">20 px</option>
+<select name="fontw" id="fontw" onchange="fontsz(this.value)">
+    <option value="5px">5 px</option>
+    <option value="10px">10 px</option>
+    <option value="15px">15 px</option>
+    <option value="20px">20 px</option>
+    <option value="25px">25 px</option>
 
 </select>
-<input type="checkbox" name="Italic" id="Italic" >
+<input type="checkbox" name="Italic" id="Italic" onchange="fontweit(this.checked)">
 <label for="Italic">Italic</label>
-<input type="checkbox" name="Bold" id="Bold">
+<input type="checkbox" name="Bold" id="Bold" onchange="fontweitgh(this.checked)">
 <label for="Bold">Bold</label>
-<input type="checkbox" name="Underline" id="Underline">
+<input type="checkbox" name="Underline" id="Underline" onchange="fontweitghtt(this.checked)">
 <label for="Underline">Underline</label>
 
 <p style="padding: 2%; border: 4px solid black;width: 500px;height: 100px;" id="text">The quick brown lox over the lazy dog</p>
