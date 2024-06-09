@@ -2,13 +2,13 @@
  * display the larger.Go to the editor */
 /******* Start Your Code *********/
 // solution
-// let x=5;
-// let y=8;
-// if (x>y){
-//     console.log(x)
-// }else{
-//     console.log(y)
-// };
+let x=5;
+let y=8;
+if (x>y){
+    console.log(x)
+}else{
+    console.log(y)
+};
 
 /* 2. Write a JavaScript conditional statement to find the sign
  of product of three numbers. Display an alert box with the 
@@ -18,14 +18,14 @@ Output : The sign is - */
 /******* Start Your Code *********/
 
 // solution
-// let condstat= [4,-7,9];
-// for(i of condstat){
-//     if(i>=0){
-//         window.alert("is postive")
-//     } else{
-//         window.alert("is negative")
-//     }
-// }
+let condstat= [4,-7,9];
+for(i of condstat){
+    if(i>=0){
+        window.alert("is postive")
+    } else{
+        window.alert("is negative")
+    }
+}
 /* 3. Write a JavaScript conditional statement to sort three numbers. Display an alert box to show the result. Go to the editor 
 Sample numbers : 0, -1, 4 
 Output : 4, 0, -1 */
@@ -152,9 +152,10 @@ equal or between 90 and 100 ===> A
 */
 // solution
 // for(let i=1 ;i<=8; i++ ){
+//     let x="";
 //     for(let m=1 ; m<=i ; m++){
-//         console.log(m);
-//     }
+//         x += m + "  ";
+//     }console.log(x);
 // }
 
 /* 
