@@ -12,8 +12,8 @@ async function jsonimgchang(){
     for(let i=0 ; i<respdata.length;i++){
         let oplist=  document.createElement("option");
         oplist.innerHTML= respdata[i].name;
-        select.appendChild(oplist);
         oplist.value=respdata[i].image;
+        select.appendChild(oplist);
     }
 
 }
